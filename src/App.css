@@ -28,6 +28,13 @@
   color: #61dafb;
 }
 
+@font-face {
+  font-family: "primary";
+  src: url(./assets/fonts/RifficFree-Bold.woff);
+}
+
+*{font-family: 'primary' !important ; color: #fff;}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
