@@ -3,19 +3,26 @@ import { Box, Button, Container, Link } from "@mui/material";
 import Switch from "@mui/material/Switch";
 
 const DesktopMainMenu = styled(Container)`
-  padding: 15px 0;
+  padding: 6px 0 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #F6E6D6;
+  border: 2px solid #252211;
+  border-radius: 3px;
 
   @media (max-width: 899px) {
     display: none;
   }
 `;
 const MobileMainMenu = styled.div`
+  padding: 6px 20px 2px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #F6E6D6;
+  border: 2px solid #252211;
+  border-radius: 3px;
   
   @media (min-width: 900px) {
     display: none;
@@ -27,9 +34,9 @@ const SiteLogo = styled.img`
 `;
 const MenuLink = styled(Link)`
   font-size: max(15px, 17px);
-  font-family: "poppins-light";
+  font-family: 'heading' !important;
   font-weight: bolder;
-  color: ${ (props) => props.theme.textPrimary};
+  color: #252211;
   text-transform: uppercase;
   text-decoration: none;
   padding: ${ (props) => props.p? props.p: '0 15px'};
@@ -37,21 +44,13 @@ const MenuLink = styled(Link)`
   transition-duration: 0.5s;
 
   &:hover, &:active, &:focus {
-    color: #ffffff;
+    color: #ebad36;
     transition-duration: 0.5s;
   }
   @media (max-width: 899px) {
     display: block;
     padding: ${ (props) => props.p? props.p: '15px 0 15px 20px'};
     text-align: left;
-  }
-  &:last-child {
-    border-width: 0px;
-    background: red;
-    width: calc(100% - 40px);
-    margin: 15px auto;
-    padding: 10px 20px;
-    text-align: center;
   }
 `;
 

@@ -30,10 +30,14 @@
 
 @font-face {
   font-family: "primary";
-  src: url(./assets/fonts/RifficFree-Bold.woff);
+  src: url(./assets/fonts/ReemKufi-Bold.woff);
+}
+@font-face {
+  font-family: "heading";
+  src: url(./assets/fonts/THE-MINION.woff);
 }
 
-*{font-family: 'primary' !important ; color: #fff;}
+*{font-family: 'primary' !important ; color: #252211;}
 
 @keyframes App-logo-spin {
   from {
@@ -41,5 +45,47 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.MuiTypography-h1{
+  font-family: 'heading' !important;
+  font-size: 45px !important;
+  color: #EBAD36;
+  -webkit-text-stroke: 3px #252211;
+}
+.MuiTypography-h2{
+  font-family: 'heading' !important;
+}
+.MuiTypography-h2{
+  font-size: 70px !important;
+  -webkit-text-stroke: 3px #252211;
+}
+.MuiTypography-h4{
+  font-family: 'heading' !important;
+  font-size: 28px !important;
+}
+.MuiTypography-body2{
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 900px) {
+  .MuiTypography-h2{
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  
+  .MuiTypography-h1{
+    font-size: 30px !important;
+  }
+  .MuiTypography-h2{
+    font-size: 35px !important;
+  }
+  .MuiTypography-h4{
+    font-size: 22px !important;
+  }
+  .MuiTypography-body2{
+    font-size: 16px !important;
   }
 }
