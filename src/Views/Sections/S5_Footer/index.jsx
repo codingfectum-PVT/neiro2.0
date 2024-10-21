@@ -13,7 +13,7 @@ import x from '../../../assets/x.png'
 const Wrapper = emotionStyled.div`
     padding: 140px 0 50px;
     background: #F6E6D6;
-    border-top: 2px solid #252211;
+    border-top: 6px solid #252211;
     position: relative;
     z-index: 0;
     margin-top: 160px;

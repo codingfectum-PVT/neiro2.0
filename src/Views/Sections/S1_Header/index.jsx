@@ -35,11 +35,11 @@ const TextBox = emotionStyled(Box)`
     border: 2px solid #252211;
     border-radius: 3px;
     max-width: 800px;
-    margin: -45px auto 0;
+    margin: -23px auto 0;
     padding: 20px 20px;
 
     @media(max-width: 600px){
-        margin-top: -35px;
+        margin-top: -15px;
     }
 `
 

@@ -1,6 +1,6 @@
 export const websiteLink = '#';
-export const tgLink = '#';
-export const xLink = '#';
+export const tgLink = 'https://t.me/neiro20_eth';
+export const xLink = 'https://x.com/neiro20_eth';
 export const dexScreenerLink = '#';
 export const dexToolsLink = '#';
 export const etherscanLink = '#';
